@@ -62,6 +62,19 @@
 
 #projects {
   background-color: #fff;
+  text-align: center;
+  padding: 100px;
+}
+
+/* footer  ========================================= */
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 100px;
+  font-style: italic;
+  font-size: 1rem;
 }
 
 /* specific text styles  =========================== */
