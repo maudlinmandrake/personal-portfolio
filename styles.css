@@ -47,6 +47,14 @@
 }
 
 
+/* portfolio section  ============================== */
+
+#projects {
+  background-color: #A166AB;
+}
+
+/* specific text styles  =========================== */
+
 .large-text {
   font-size: 3rem;
 }
