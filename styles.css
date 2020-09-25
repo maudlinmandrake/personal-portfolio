@@ -2,6 +2,21 @@ html {
   font-family: "Dank Mono";
 }
 
+/* nav bar ======================================== */
+
+#navbar {
+  position: fixed;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+#navbar a {
+  color: black;
+  margin: auto 25px;
+}
+
 /* welcome section ================================ */
 
 #welcome-section {
