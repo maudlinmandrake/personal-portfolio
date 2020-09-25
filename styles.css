@@ -7,6 +7,8 @@
   font-family: "Dank Mono";
 }
 
+
+
 /* nav bar ======================================== */
 
 #navbar {
@@ -42,8 +44,18 @@
   font-size: 1.5rem;
   color: #000;
   background-color: #fff;
-  background: url(img/memphis-mini.png);
+  background: url(img/geometry2.png);
 }
+
+#welcome-section p {
+  padding: 20px 200px;
+}
+#welcome-section img {
+  width: 100%;
+  max-width: 400px;
+  margin: 40px auto;
+}
+
 
 
 /* portfolio section  ============================== */
@@ -53,6 +65,10 @@
 }
 
 /* specific text styles  =========================== */
+
+h1 {
+  font-style: italic;
+}
 
 .large-text {
   font-size: 3rem;
@@ -64,4 +80,11 @@
   -webkit-background-clip: text;
   color: transparent;
   font-style: italic;
+}
+
+@media only screen and (max-width: 600px) {
+  #welcome-section,
+  #projects {
+    text-align: center;
+  }
 }
