@@ -1,4 +1,9 @@
-html {
+* {
+  padding: 0;
+  margin: 0;
+}
+ 
+ html {
   font-family: "Dank Mono";
 }
 
@@ -6,26 +11,39 @@ html {
 
 #navbar {
   position: fixed;
-  height: 200px;
+  top: 0;
+  left: 0;
   width: 100%;
   text-align: center;
-  margin: 20px auto;
+  z-index: 999;
 }
 
 #navbar a {
-  color: black;
+  color:#fff;
   margin: auto 25px;
+}
+
+#navbar ul {
+  padding-top: 35px;
+}
+
+#navbar li {
+  display: inline;
 }
 
 /* welcome section ================================ */
 
 #welcome-section {
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
   font-size: 1.5rem;
+  color: #fff;
+  background-color: #000;
+  background: url(img/ep_naturalblack.png);
 }
 
 
